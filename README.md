@@ -16,7 +16,7 @@ Install all the node modules reuired for this project.<br />
 Open [http://localhost:3030](http://localhost:3030) to view it in the browser.<br />
 You will also see any lint errors in the terminal.
 
-### `node index.js`
+### `node index.js` or `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3030](http://localhost:3030) to view it in the browser.<br />
