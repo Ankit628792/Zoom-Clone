@@ -13,8 +13,7 @@ var peer = new Peer(undefined, {
     port: '3030'
 });
 
-let myVideoStream
-navigator.mediaDevices.getUserMedia({
+let myVideoStream = navigator.mediaDevices.getUserMedia({
     video: true,
     audio: true
 }).then(stream => {
