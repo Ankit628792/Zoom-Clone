@@ -2,6 +2,7 @@
 var user = prompt("Please enter your name", "User");
 
 const socket = io('/');
+const port = process.env.PORT || 3030
 
 const videoGrid = document.getElementById('video-grid');
 const myVideo = document.createElement('video');
@@ -10,7 +11,7 @@ myVideo.muted = true;
 var peer = new Peer(undefined, {
     path: '/peerjs',
     host: '/',
-    port: '3030'
+    port: port
 });
 
 let myVideoStream = navigator.mediaDevices.getUserMedia({
