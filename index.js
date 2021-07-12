@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const server = require('http').Server(app);
+const port = process.env.PORT ;
 const io = require('socket.io')(server);
 const { v4: uuidv4 } = require('uuid');
 const { ExpressPeerServer } = require('peer');
@@ -33,4 +34,4 @@ io.on('connection', socket =>{
 })
 
 
-server.listen(process.env.PORT || 3030);
+server.listen(port || 3030);
