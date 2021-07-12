@@ -3,7 +3,7 @@
 
 # Zoom Clone App
 
-This project was bootstrapped with Express Js and Node Js.
+This project was bootstrapped with Express Js and Node Js used with the frontend in ejs.
 
 ## Available Scripts
 
