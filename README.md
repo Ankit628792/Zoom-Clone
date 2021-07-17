@@ -2,35 +2,91 @@
 
 
 # Zoom Clone App
+<h3 align="center">
+  Zoom clone
+</h3>
 
-This project was bootstrapped with Express Js and Node Js used with the frontend in ejs.
+<p align="center">Clone of Zoom for study purposes.</p>
+<p align="center">Deployed <a href="https://zoom-clone-ks.herokuapp.com/pages/home/">here</a> </p>
 
-## Available Scripts
+<p align="left">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-In the project directory, you can run:
+</br>
 
+## 🚀 Technologies
 
-### `npm install`
+Technologies that I used to develop this Zoom's clone:
 
-Install all the node modules reuired for this project.<br />
-Open [http://localhost:3030](http://localhost:3030) to view it in the browser.<br />
-You will also see any lint errors in the terminal.
+- [NodeJS](https://nodejs.org/en/)
+- [Socket.IO](https://socket.io/)
+- [PeerJS](https://peerjs.com/)
 
-### `node index.js` or `npm start`
+## 💻 Getting started
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3030](http://localhost:3030) to view it in the browser.<br />
-You will also see any lint errors in the terminal.
+**Clone the project and access the folder**
 
+```bash
+$ git clone https://github.com/Ankit628792/Zoom-Clone.git && cd zoom-clone
+```
 
-### `npm run eject`
+**Follow the steps below**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Install the dependencies of peer-server
+$  cd peer-server && yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start the peer-server
+$ yarn dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Install the dependencies of server
+$  cd server && yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Start the server
+$ yarn start
+```
 
+```bash
+# Install the dependencies web client
+$  cd public && yarn install
+
+# Start the server
+$ yarn start
+```
+
+## 🤔 How to contribute
+
+**Make a fork of this repository**
+
+```bash
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+
+$ gh repo fork Ankit628792/Zoom-Clone
+```
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd zoom-clone
+
+# Create a branch with your feature
+$ git checkout -b my-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+---
 
