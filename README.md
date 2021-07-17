@@ -2,9 +2,6 @@
 
 
 # Zoom Clone App
-<h3 align="center">
-  Zoom clone
-</h3>
 
 <p align="left">Clone of Zoom for study purposes.</p>
 <p align="left">Deployed <a href="https://zoom-clone-ks.herokuapp.com/pages/home/">here</a> </p>
