@@ -1,6 +1,5 @@
 
 
-
 # Zoom Clone App
 
 <p align="left">Clone of Zoom for study purposes.</p>
@@ -10,8 +9,6 @@
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
-
-</br>
 
 ## 🚀 Technologies
 
