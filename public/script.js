@@ -2,7 +2,7 @@
 var user = prompt("Please enter your name", "User");
 
 const socket = io('/');
-const port =  3030
+const port =  process.env.PORT || 443
 
 const videoGrid = document.getElementById('video-grid');
 const myVideo = document.createElement('video');
