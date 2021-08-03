@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 3030
 const server = require('http').Server(app);
-const port = process.env.PORT ;
 const io = require('socket.io')(server);
 const { v4: uuidv4 } = require('uuid');
 const { ExpressPeerServer } = require('peer');
@@ -27,9 +27,13 @@ io.on('connection', socket =>{
         socket.join(roomId);
         socket.to(roomId).broadcast.emit('user-connected', userId);
 
-        socket.on('message', message =>{
+        socket.on('message', (message) =>{
             io.to(roomId).emit('createMessage', message);
         })
+
+        socket.on('disconnect', () => {
+            socket.to(roomId).broadcast.emit('user-disconnected', userId)
+          })
     })
 })
 
