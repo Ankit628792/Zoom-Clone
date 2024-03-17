@@ -36,21 +36,6 @@ $  cd Zoom-Clone && npm install
 $ npm run dev
 ```
 
-## 🤔 How to contribute
-
-**Make a fork of this repository**
-
-***Follow the steps below**
-
-```bash
-# Clone your fork
-$ git clone your-fork-url && cd zoom-clone
-
-# Create a branch with your feature
-$ git checkout -b my-feature
-
-# Make the commit with your changes
-$ git commit -m 'feat: My new feature'
 
 # Send the code to your remote branch
 $ git push origin my-feature
